@@ -1,0 +1,17 @@
+{
+  "name": "typescript-backend-benchmark",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cplepage/typescript-backend-benchmark.git"
+  },
+  "author": "cplepage",
+  "bugs": {
+    "url": "https://github.com/cplepage/typescript-backend-benchmark/issues"
+  },
+  "homepage": "https://github.com/cplepage/typescript-backend-benchmark#readme"
+}
