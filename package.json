@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/cplepage/typescript-backend-benchmark#readme",
   "dependencies": {
+    "@nestjs/common": "^9.2.1",
     "@nestjs/core": "^9.2.1",
     "@nestjs/platform-express": "^9.2.1",
     "@trpc/server": "^10.9.0",
