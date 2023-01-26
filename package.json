@@ -1,10 +1,11 @@
 {
   "name": "typescript-backend-benchmark",
   "version": "0.0.0",
-  "description": "",
+  "description": "Benchmarking setup for few backend frameworks",
   "scripts": {
-
+    "build": "esbuild build.ts --outfile=build.js && node build"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cplepage/typescript-backend-benchmark.git"
@@ -13,5 +14,17 @@
   "bugs": {
     "url": "https://github.com/cplepage/typescript-backend-benchmark/issues"
   },
-  "homepage": "https://github.com/cplepage/typescript-backend-benchmark#readme"
+  "homepage": "https://github.com/cplepage/typescript-backend-benchmark#readme",
+  "dependencies": {
+    "@nestjs/core": "^9.2.1",
+    "@nestjs/platform-express": "^9.2.1",
+    "@trpc/server": "^10.9.0",
+    "@types/node": "^18.11.18",
+    "autocannon": "^7.10.0",
+    "esbuild": "^0.17.4",
+    "express": "^4.18.2",
+    "fastify": "^4.12.0",
+    "glob": "^8.1.0",
+    "typescript-rpc": "^0.0.4"
+  }
 }
