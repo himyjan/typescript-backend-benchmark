@@ -26,6 +26,8 @@
     "express": "^4.18.2",
     "fastify": "^4.12.0",
     "glob": "^8.1.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0",
     "typescript-rpc": "^0.0.4"
   }
 }
