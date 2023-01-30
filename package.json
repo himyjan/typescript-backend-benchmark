@@ -30,6 +30,6 @@
     "koa": "^2.14.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.0",
-    "typescript-rpc": "^0.0.4"
+    "typescript-rpc": "file:../typescript-rpc/typescript-rpc-0.0.4.tgz"
   }
 }

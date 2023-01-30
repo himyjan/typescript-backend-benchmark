@@ -6,10 +6,7 @@ const t = initTRPC.create();
 const router = t.router;
 
 const appRouter = router({
-    "hello": t.procedure
-        .query((req) => {
-            return "hello world";
-        })
+    hello: t.procedure.query(() => "hello world")
 });
 
 const { listen } = createHTTPServer({

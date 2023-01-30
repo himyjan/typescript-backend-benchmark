@@ -2,8 +2,8 @@ import createHandler from "typescript-rpc/createHandler";
 import * as http from "http";
 
 const api = {
-    async hello(greeting: string) {
-        return greeting + " World";
+    hello() {
+        return "Hello World";
     }
 }
 
