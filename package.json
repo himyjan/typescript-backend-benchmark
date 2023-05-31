@@ -16,20 +16,20 @@
   },
   "homepage": "https://github.com/cplepage/typescript-backend-benchmark#readme",
   "dependencies": {
-    "@nestjs/common": "^9.2.1",
-    "@nestjs/core": "^9.2.1",
-    "@nestjs/platform-express": "^9.2.1",
-    "@nestjs/platform-fastify": "^9.2.1",
-    "@trpc/server": "^10.9.0",
-    "@types/node": "^18.11.18",
-    "autocannon": "^7.10.0",
-    "esbuild": "^0.17.4",
+    "@nestjs/common": "^9.4.2",
+    "@nestjs/core": "^9.4.2",
+    "@nestjs/platform-express": "^9.4.2",
+    "@nestjs/platform-fastify": "^9.4.2",
+    "@trpc/server": "^10.28.1",
+    "@types/node": "^20.2.5",
+    "autocannon": "^7.11.0",
+    "esbuild": "^0.17.19",
     "express": "^4.18.2",
-    "fastify": "^4.12.0",
-    "glob": "^8.1.0",
-    "koa": "^2.14.1",
+    "fastify": "^4.17.0",
+    "glob": "^10.2.6",
+    "koa": "^2.14.2",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.8.0",
-    "typescript-rpc": "^0.0.4"
+    "rxjs": "^7.8.1",
+    "typescript-rpc": "^0.1.1"
   }
 }
